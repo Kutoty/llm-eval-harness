@@ -1,0 +1,9 @@
+{
+  "name": "llm-eval-harness",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "score": "node src/score.mjs",
+    "test": "node --test"
+  }
+}

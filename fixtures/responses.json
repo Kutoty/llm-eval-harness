@@ -1,0 +1,38 @@
+[
+  {
+    "id": "r1",
+    "promptId": "p1",
+    "model": "model-a",
+    "text": "First, add the numbers. Then check the total, because a missed addend changes the result. For example, 1 + 2 + 3."
+  },
+  {
+    "id": "r2",
+    "promptId": "p1",
+    "model": "model-b",
+    "text": "The answer is 6."
+  },
+  {
+    "id": "r3",
+    "promptId": "p1",
+    "model": "model-c",
+    "text": "First compute the sum. Therefore the total is 6. Example: start at 0, then add each value."
+  },
+  {
+    "id": "r4",
+    "promptId": "p2",
+    "model": "model-a",
+    "text": "A rubric needs a step and an example, because a score without a reason cannot be reviewed."
+  },
+  {
+    "id": "r5",
+    "promptId": "p2",
+    "model": "model-b",
+    "text": "Use a rubric."
+  },
+  {
+    "id": "r6",
+    "promptId": "p2",
+    "model": "model-c",
+    "text": "First write the criterion. Then give an example, because reviewers need a shared meaning."
+  }
+]

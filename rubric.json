@@ -1,0 +1,8 @@
+{
+  "name": "answer-quality",
+  "criteria": [
+    { "id": "correctness", "max": 2, "signals": ["because", "therefore"] },
+    { "id": "completeness", "max": 2, "signals": ["step", "example"] },
+    { "id": "clarity", "max": 2, "signals": ["first", "then"] }
+  ]
+}
