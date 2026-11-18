@@ -3,7 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "score": "node src/score.mjs",
-    "test": "node --test"
+    "score": "node src/cli.ts",
+    "test": "node --experimental-strip-types --test test/score.test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.77.0"
   }
 }
